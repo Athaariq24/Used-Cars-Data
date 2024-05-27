@@ -1,0 +1,28 @@
+Jawab pertanyaan berikut dengan menggunakan kalimat Anda sendiri:
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Jawaban:
+1. NoSQL adalah sebuah pendekatan dalam manajemen basis data yang berfokus pada penyimpanan dan pengambilan data yang tidak memerlukan skema tabel yang ketat seperti yang digunakan dalam sistem manajemen basis data relasional (RDBMS). NoSQL (Not Only SQL) memungkinkan penyimpanan data yang fleksibel, skalabilitas horizontal yang mudah, dan kinerja tinggi. Database NoSQL umumnya digunakan untuk menyimpan data semi-struktur atau tidak terstruktur, serta untuk aplikasi yang memerlukan skalabilitas dan ketersediaan tinggi.
+
+2. NoSQL: Digunakan ketika membutuhkan fleksibilitas dalam menyimpan data yang semi-struktur atau tidak terstruktur, serta ketika membutuhkan skalabilitas horizontal yang mudah untuk menangani volume data yang besar dan distribusi geografis. Contoh kasus penggunaan NoSQL meliputi aplikasi media sosial, IoT (Internet of Things), dan analisis data besar.
+RDBMS: Digunakan ketika memerlukan konsistensi data yang tinggi, integritas referensial, dan transaksi kompleks. RDBMS cocok digunakan untuk aplikasi yang memerlukan struktur data yang terdefinisi dengan baik, seperti sistem perbankan, sistem manajemen inventaris, dan sistem manajemen relasi pelanggan.
+
+3. MongoDB: MongoDB adalah database dokument NoSQL yang populer. Keunggulan MongoDB termasuk skalabilitas horizontal, fleksibilitas dalam menangani data semi-struktur, dan dukungan untuk kueri yang kaya.
+Cassandra: Cassandra adalah database kolom berorientasi kolom yang dirancang untuk menangani data yang sangat besar dengan tingkat ketersediaan dan toleransi kesalahan yang tinggi. Keunggulan Cassandra termasuk skalabilitas linier, ketersediaan tinggi, dan kemampuan untuk menangani penulisan dan pembacaan data yang besar dalam waktu nyata.
+
+4. Airflow adalah platform open-source untuk mengatur, mengelola, dan menjadwalkan alur kerja (workflows) secara teratur. Dengan Airflow, pengguna dapat mendefinisikan alur kerja sebagai serangkaian tugas terstruktur yang harus dieksekusi dalam urutan tertentu. Airflow menyediakan antarmuka pengguna grafis yang intuitif untuk mendefinisikan, menjadwalkan, dan memantau alur kerja, serta fitur-fitur lain seperti pengelolaan dependensi tugas, penjadwalan waktu eksekusi, dan pemantauan status tugas.
+
+5. Great Expectations adalah platform open-source untuk mengelola, menguji, dan memantau kualitas data. Dengan Great Expectations, pengguna dapat mendefinisikan harapan (expectations) tentang data mereka, memvalidasi data terhadap harapan ini, dan memantau perubahan dalam kualitas data dari waktu ke waktu. Great Expectations menyediakan antarmuka pengguna yang mudah digunakan untuk mendefinisikan harapan, menjalankan pengujian data, dan memvisualisasikan hasilnya.
+
+6. Batch Processing adalah pendekatan untuk memproses volume besar data dalam batch atau kelompok, di mana data dikelompokkan bersama dan diproses pada waktu tertentu. Definisi ini berbeda dengan pemrosesan real-time yang memproses data saat itu juga saat data tiba. Contoh kasus penggunaan batch processing termasuk pengolahan data harian untuk laporan keuangan, analisis data historis untuk prediksi bisnis, dan pemrosesan data mentah menjadi format yang dapat diuraikan. Tools yang digunakan untuk batch processing meliputi Apache Hadoop, Apache Spark, dan Apache Flink.
